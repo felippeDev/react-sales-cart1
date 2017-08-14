@@ -42,7 +42,7 @@ class SaleItem extends Component {
     super(props);
 
     this.state = {
-      active: false
+      active: true
     };
 
     this.handleClick = this.handleClick.bind(this);
